@@ -1,6 +1,14 @@
+import org.testng.annotations.Test;
+
 public class SampleTest {
 
-    public static void main(String[] args){
+    @Test
+    public void hi(){
         System.out.println("Hi Lakshmi");
+    }
+
+    @Test
+    public void hello(){
+        System.out.println("Hello Lakshmi");
     }
 }
